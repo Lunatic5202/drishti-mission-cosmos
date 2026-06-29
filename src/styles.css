@@ -120,8 +120,6 @@
 @utility scan-line {
   position: relative;
   overflow: hidden;
-}
-@utility scan-line {
   &::after {
     content: "";
     position: absolute; inset: 0;
