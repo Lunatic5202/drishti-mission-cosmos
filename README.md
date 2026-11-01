@@ -78,3 +78,18 @@ bun run preview
 | `preview` | Preview the production build locally |
 | `lint` | Run ESLint |
 | `format` | Format the codebase with Prettier |
+
+
+## Demo-data and verification note
+
+DRISHTI is a browser-side mission-console simulation. Its light curves, transit events, model-fit values, posterior samples and classifier output are generated for the interactive demonstration; they are not a live Kepler/NASA feed and do not represent a trained or validated exoplanet-detection model. Keep this distinction visible in screenshots, presentations and future documentation.
+
+For local development, use the committed Bun lockfile:
+
+```bash
+bun install
+bun dev
+bun run build
+```
+
+The package also defines `lint` and `format` scripts. Report the commands actually run when documenting a release.
