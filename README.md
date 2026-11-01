@@ -93,3 +93,7 @@ bun run build
 ```
 
 The package also defines `lint` and `format` scripts. Report the commands actually run when documenting a release.
+
+## License
+
+Original source code and project documentation are licensed under the [MIT License](LICENSE). Third-party libraries, datasets, fonts, media, and other separately licensed materials are excluded and remain under their respective terms.
